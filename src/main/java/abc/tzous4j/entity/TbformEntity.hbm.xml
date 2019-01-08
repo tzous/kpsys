@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbformEntity" table="tbform" schema="msadb">
+        <id name="fid" column="fid"/>
+        <property name="fname" column="fname"/>
+        <property name="ftype" column="ftype"/>
+        <property name="fhid" column="fhid"/>
+        <property name="fstat" column="fstat"/>
+    </class>
+</hibernate-mapping>

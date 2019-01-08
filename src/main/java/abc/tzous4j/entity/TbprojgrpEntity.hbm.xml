@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbprojgrpEntity" table="tbprojgrp" schema="msadb">
+        <id name="gid" column="gid"/>
+        <property name="rid" column="rid"/>
+        <property name="gname" column="gname"/>
+        <property name="sid" column="sid"/>
+        <property name="gstat" column="gstat"/>
+    </class>
+</hibernate-mapping>

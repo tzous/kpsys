@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbbranchEntity" table="tbbranch" schema="msadb">
+        <id name="bid" column="bid"/>
+        <property name="bname" column="bname"/>
+        <property name="bhid" column="bhid"/>
+        <property name="bstat" column="bstat"/>
+    </class>
+</hibernate-mapping>

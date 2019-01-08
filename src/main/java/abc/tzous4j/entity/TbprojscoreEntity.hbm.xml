@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbprojscoreEntity" table="tbprojscore" schema="msadb">
+        <id name="scid" column="scid"/>
+        <property name="rid" column="rid"/>
+        <property name="raterid" column="raterid"/>
+        <property name="targetid" column="targetid"/>
+        <property name="score" column="score"/>
+        <property name="scstst" column="scstst"/>
+    </class>
+</hibernate-mapping>

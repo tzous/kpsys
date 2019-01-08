@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbuserEntity" table="tbuser" schema="msadb">
+        <id name="uname" column="uname"/>
+        <property name="uid" column="uid"/>
+        <property name="upasswd" column="upasswd"/>
+        <property name="ustat" column="ustat"/>
+        <property name="udesc" column="udesc"/>
+        <property name="uregister" column="uregister"/>
+        <property name="uinvalid" column="uinvalid"/>
+    </class>
+</hibernate-mapping>

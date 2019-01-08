@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url"><![CDATA[jdbc:mysql://localhost:3306/msadb?useUnicode=true&characterEncoding=utf8]]></property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <mapping class="abc.tzous4j.entity.TbbranchEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbbranchEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbformEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbformEntity.hbm.xml"/>
+      <mapping resource="abc/tzous4j/entity/TbformitemEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbformitemEntity"/>
+      <mapping class="abc.tzous4j.entity.TbprojEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbprojEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbprojgrpEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbprojgrpEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbprojrankEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbprojrankEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbprojscoreEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbprojscoreEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbprojscoresEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbprojscoresEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbstaffEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbstaffEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbstbrEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbstbrEntity.hbm.xml"/>
+      <mapping resource="abc/tzous4j/entity/TbstfmEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbstfmEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbsysEntity.hbm.xml"/>
+      <mapping class="abc.tzous4j.entity.TbsysEntity"/>
+      <mapping class="abc.tzous4j.entity.TbuserEntity"/>
+      <mapping resource="abc/tzous4j/entity/TbuserEntity.hbm.xml"/>
+
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="abc.tzous4j.entity.TbformitemEntity" table="tbformitem" schema="msadb">
+        <id name="fmid" column="fmid"/>
+        <property name="fid" column="fid"/>
+        <property name="fnum" column="fnum"/>
+        <property name="ftype" column="ftype"/>
+        <property name="fhtype" column="fhtype"/>
+        <property name="fcontent" column="fcontent"/>
+        <property name="fscore" column="fscore"/>
+        <property name="fmdesc" column="fmdesc"/>
+    </class>
+</hibernate-mapping>
